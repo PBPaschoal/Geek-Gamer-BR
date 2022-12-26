@@ -1,0 +1,182 @@
+@font-face {
+    src: url(/fonts/PressStart2P-Regular.ttf);
+    font-family: 'Press Start 2P';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(/fonts/Cookie-Regular.ttf);
+    font-family: 'Cookie';
+    font-weight: normal;
+}
+
+@font-face {
+    src: url(/fonts/StickNoBills-Light.ttf);
+    font-family: 'Stick No Bills';
+    font-weight: normal;
+}
+
+* {
+    color: rgb(255, 255, 255);
+    font-family: 'Stick No Bills', 'Arial';
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+    background-image: url("/img/jean-avatar2.webp");
+    background-repeat: no-repeat;
+    background-position: 101% 100%;
+}
+
+.container-fluid,
+.navbar-brand {
+    font-size: 22px;
+    color: rgb(255, 0, 0);
+}
+
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+
+header {
+    text-align: center;
+    margin-top: 1%;
+}
+
+h1,
+h3 {
+    font-family: 'Cookie';
+    margin-top: 2%;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 15px;
+    font-family: 'Press Start 2P', Arial;
+}
+
+.videos-canais h3 {
+    text-align: end;
+}
+
+.sobre-o-geek {
+    font-size: 20px;
+    margin: 2%;
+}
+
+.album-de-fotos {
+    margin-top: 8%;
+    padding: 2%;
+}
+
+.texto-jogos-lista {
+    text-align: end;
+}
+
+.lista-jogos,
+.fotos-album,
+.videos-geral,
+.contatos-geral {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.fotos-album,
+.videos-geral {
+    background-color: rgb(223, 223, 223);
+    gap: 15px;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.lista-jogos a, .link-contatos a {
+    color: rgb(199, 203, 223);
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.lista-jogos a:hover, .link-contatos a:hover {
+    padding: 5px;
+    color: rgb(255, 255, 0);
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px inset rgb(3, 202, 202);
+    font-size: 18px;
+    border-radius: 20px;
+    border-width: 2px;
+}
+
+.link-contatos {
+    padding-top: 15px;
+}
+
+.sobre-geek-gamer h3 {
+    text-align: center;
+}
+
+.sobre-geek-gamer span {
+    font-family: 'Press Start 2P';
+}
+
+.sobre-geek-gamer {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 15%;
+}
+
+.meus-contatos {
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+
+.contatos-geral {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.274);
+}
+
+/* Imagens */
+
+header img {
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+.fotos-album img {
+    border: 4px inset rgb(73, 73, 73)
+}
+
+/* Videos */
+
+.videos-canais {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 2%;
+}
+
+
+/* Final da página */
+footer {
+    background-color: rgb(248, 249, 250);
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 18px;
+    padding: 1%;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(2, 131, 131);
+}
+
+footer a:hover {
+    color: rgb(143, 2, 209);
+}
