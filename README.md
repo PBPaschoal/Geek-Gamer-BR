@@ -1,6 +1,8 @@
 # Geek Gamer BR
 Website para divulgar as redes sociais do Geek Gamer.
 
+![Site](https://i.ibb.co/nw5Bcbg/geekgamerbr.jpg)
+
 # MARCAÇÃO | PROGRAMAÇÃO | FRAMEWORK | TECH:
  
 ![HTML](https://i.ibb.co/41fmmJj/html.png)
